@@ -1,0 +1,52 @@
+{
+  "harness_controls": [
+    "validate_input",
+    "blind",
+    "refuse",
+    "log",
+    "escalate"
+  ],
+  "format_problems": [],
+  "entries": [
+    {
+      "control": "validate_input",
+      "principle": "Safety and security",
+      "principle_source": "UNESCO Recommendation on the Ethics of AI (2021), paragraph 27",
+      "instrument": "Law of the Republic of Kazakhstan On Artificial Intelligence, No. 230-VIII, 17 November 2025",
+      "provision": "Article 11(1), 11(3)",
+      "why_here": "Part 1 found no clear bias above the floors, but input validation protects against invalid data; this law is used as a benchmark for this fictional prototype."
+    },
+    {
+      "control": "blind",
+      "principle": "Fairness and non-discrimination",
+      "principle_source": "UNESCO Recommendation on the Ethics of AI (2021), paragraphs 28-29",
+      "instrument": "Law of the Republic of Kazakhstan On Artificial Intelligence, No. 230-VIII, 17 November 2025",
+      "provision": "Article 6",
+      "why_here": "Part 1 found no clear divergence above the floors, but blinding reduces exposure to irrelevant attributes; this law is used as a benchmark for this fictional prototype."
+    },
+    {
+      "control": "refuse",
+      "principle": "Proportionality and Do No Harm",
+      "principle_source": "UNESCO Recommendation on the Ethics of AI (2021), paragraphs 25-26",
+      "instrument": "Law of the Republic of Kazakhstan On Personal Data and Their Protection, No. 94-V, 21 May 2013",
+      "provision": "Article 7(1), 7(8)",
+      "why_here": "Part 1 found no clear bias above the floors, but refusal prevents processing without consent or for an unauthorized purpose; this law is used as a benchmark for this fictional prototype."
+    },
+    {
+      "control": "log",
+      "principle": "Responsibility and accountability",
+      "principle_source": "UNESCO Recommendation on the Ethics of AI (2021), paragraphs 42-43",
+      "instrument": "Law of the Republic of Kazakhstan On Artificial Intelligence, No. 230-VIII, 17 November 2025",
+      "provision": "Article 8(1)-(2)",
+      "why_here": "Part 1 showed decision differences and uncertainty, so logging supports accountability and later auditing; this law is used as a benchmark for this fictional prototype."
+    },
+    {
+      "control": "escalate",
+      "principle": "Human oversight and determination",
+      "principle_source": "UNESCO Recommendation on the Ethics of AI (2021), paragraphs 35-36",
+      "instrument": "Law of the Republic of Kazakhstan On Artificial Intelligence, No. 230-VIII, 17 November 2025",
+      "provision": "Article 8(1), Article 9",
+      "why_here": "Part 1 found no clear divergence above the floors, so human review provides additional oversight rather than assuming the model is unbiased; this law is used as a benchmark for this fictional prototype."
+    }
+  ]
+}
